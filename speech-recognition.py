@@ -55,7 +55,6 @@ ws = wb.active
 # search data
 roll_numbers = ws['A']
 tempRoll = text
-int(tempRoll)
 index = 0
 for roll in roll_numbers:
     index += 1
